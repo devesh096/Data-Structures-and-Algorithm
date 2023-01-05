@@ -1,0 +1,1 @@
+matrix[0][0] = sc.nextInt();

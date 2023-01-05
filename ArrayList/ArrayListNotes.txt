@@ -1,0 +1,38 @@
+it is inbuilt in java
+it is linear data type 
+
+Array                    ArrayList
+
+1.fixed size               dynamic size
+2.primitive data           primitive data types can't be stored 
+types can be stored
+3. 
+
+
+Operations : 
+1.Add Element - O(1)
+2.Get Element - O(1)
+3.Remove Element - O(n)
+4.Set Element at Index - O(n)
+5.Contains - O(n)
+
+Size of ArrayList
+
+ArrayList Implementation in Java
+
+when the array list is full then java will create a new array 
+of double size and copyall the elements of the old ArrayList.
+
+MultiDimensional ArrayList
+
+list 1 =  1 2 3 4 5
+list 2 =  2 4 6 8 10
+list 1 =  3 6 9 12 15
+
+ArrayList<ArrayList<Integer>> mainList = new ArrayList<>();
+
+
+
+
+
+

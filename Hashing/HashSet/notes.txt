@@ -1,0 +1,11 @@
+HashSet is developed using HashMaps
+Hashset Properties:-
+1.No Duplicates 
+2.Null is Allowed
+3.Unordered.
+
+import java.util.HashSet;
+
+add(key) 
+contains(key)
+remove(key)
