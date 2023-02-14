@@ -1,0 +1,15 @@
+Real Life Example
+Image is Stored in 3D Arrays For Example :
+White = [255,255,255]
+Black = [0,0,0]
+
+Representation of 2D Arrays
+
+Matrix Form of Array of Size 4x3 
+0,0 0,1 0,2
+1,0 1,1 1,2
+2,0 2,1 2,2
+3,0 3,1 3,2 
+
+
+
