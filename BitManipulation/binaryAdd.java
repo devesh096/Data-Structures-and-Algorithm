@@ -26,6 +26,7 @@ public class binaryAdd {
     public static void main(String[] args) {
 
         System.out.println(addBinary("1010", "1011"));
+        System.out.println(0 + '1' + '1');
 
     }
 }
