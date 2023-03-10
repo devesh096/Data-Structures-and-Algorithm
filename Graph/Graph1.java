@@ -45,7 +45,7 @@ public class Graph1 {
     }
 
     public static void bfs(ArrayList<Edge>[] graph) { // O(V+E)
-        Queue<Integer> q = new LinkedList<>();
+        Queue<Integer> q = new java.util.LinkedList<>();
         boolean vis[] = new boolean[graph.length];
 
         q.add(0); // source = 0
