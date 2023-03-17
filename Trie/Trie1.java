@@ -41,6 +41,23 @@ public class Trie1 {
 
     // public static Node root = new Node();
 
+    public static boolean startsWith(String prefix) {
+
+        Node curr = root;
+
+        for (int i = 0; i < prefix.length(); i++) {
+            int idx = prefix.charAt(i) - 'a';
+
+            if (curr.children[idx] == null) {
+                return false;
+            }
+
+            curr = curr.children[idx];
+
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         String words[] = { "the", "a", "there", "their", "any", "thee", "dev" };
 
@@ -48,8 +65,14 @@ public class Trie1 {
             insert(words[i]);
         }
 
-        System.out.println(search("thee"));
-        System.out.println(search("thor"));
-        System.out.println(search("devesh"));
+        String prefix1 = "the";
+        String prefix2 = "des";
+
+        System.out.println(startsWith(prefix1));
+        System.out.println(startsWith(prefix2));
+
+        // System.out.println(search("thee"));
+        // System.out.println(search("thor"));
+        // System.out.println(search("devesh"));
     }
 }
