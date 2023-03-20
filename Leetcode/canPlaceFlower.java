@@ -1,4 +1,4 @@
-public class canPlaceFlowers {
+public class canPlaceFlower {
 
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int count = 0;
