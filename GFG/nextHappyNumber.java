@@ -32,6 +32,7 @@ public class nextHappyNumber {
         static int nextHappy(int N) {
             int x = N + 1;
             int res = x;
+            System.out.println(res);
             // check for every name
             while (true) {
                 if (isHappy(x) == 1)
